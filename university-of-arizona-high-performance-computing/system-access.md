@@ -12,9 +12,9 @@ If you experience any problems, refer to our [FAQ page](https://uarizona.atlassi
 
 The web interface, [Open OnDemand](https://ood.hpc.arizona.edu/), provides access to HPC's three clusters. More comprehensive information on this service can be found on our [Open On Demand](https://uarizona.atlassian.net/wiki/spaces/UAHPC/pages/75990636/Open+On+Demand) page.
 
-<details>
+{% tabs %}
 
-<summary>Terminal Access</summary>
+{% tab title="Terminal Access" %}
 
 Users can gain command line access to HPC through our OOD web interface as an alternative to using a local SSH Client. To use this interface:
 
@@ -25,13 +25,9 @@ Users can gain command line access to HPC through our OOD web interface as an al
 
 <img src="../.gitbook/assets/Screen Shot 2022-09-29 at 3.05.19 PM.png" alt="" data-size="original">
 
-</details>
+{% endtab %}
 
-<details>
-
-<summary>Virtual Desktop</summary>
-
-
+{% tab title="Virtual Desktop" %}
 
 Users may also interact with a cluster using a virtual desktop interface. To do this:
 
@@ -48,9 +44,9 @@ Users may also interact with a cluster using a virtual desktop interface. To do 
 
 <img src="../.gitbook/assets/desktop-session.png" alt="" data-size="original">
 
+{% endtab %}
 
-
-</details>
+{% endtabs %}
 
 ## Command Line/Terminal Access <a href="#systemaccess-commandline-terminalaccess" id="systemaccess-commandline-terminalaccess"></a>
 
